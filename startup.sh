@@ -43,8 +43,8 @@ systemctl stop firewalld
 # Update hosts file
 echo "[TASK 6] Update /etc/hosts file"
 cat >>/etc/hosts<<EOF
-192.168.50.22 elkserver.eduami.org
-192.168.50.23 sbclient.eduami.org
+192.168.50.22 elkserver.eduami.org elkserver
+192.168.50.23 sbclient.eduami.org sbclient
 EOF
 
 # # installs, enables, and starts the Apache.
