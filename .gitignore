@@ -8,3 +8,12 @@
 .vagrant/machines/elkserver/virtualbox/synced_folders
 .vagrant/machines/elkserver/virtualbox/vagrant_cwd
 .vagrant/rgloader/loader.rb
+.vagrant/machines/sbclient/virtualbox/action_set_name
+.vagrant/machines/sbclient/virtualbox/creator_uid
+.vagrant/machines/sbclient/virtualbox/id
+.vagrant/machines/sbclient/virtualbox/index_uuid
+.vagrant/machines/sbclient/virtualbox/vagrant_cwd
+.vagrant/machines/sbclient/virtualbox/action_provision
+.vagrant/machines/sbclient/virtualbox/box_meta
+.vagrant/machines/sbclient/virtualbox/private_key
+.vagrant/machines/sbclient/virtualbox/synced_folders

@@ -9,9 +9,9 @@
 # Bootstrap environment
 We will be using vagrant to bring two systems up
 - elkserver (Linux machine that runs elk)
-- sbclient (Linux machine that runs  Springboot applciation and filebeat client) 
+- sbclient (Linux machine that runs  Springboot application and filebeat client) 
 
-    #Bring two vms up ,installs docker-compose and setup network
+    Bring two vms up ,installs docker-compose and setup network
     vagrant up
 # Running ELK in docker container
 
