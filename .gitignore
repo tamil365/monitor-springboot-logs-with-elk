@@ -1,0 +1,10 @@
+.vagrant/machines/elkserver/virtualbox/action_provision
+.vagrant/machines/elkserver/virtualbox/action_set_name
+.vagrant/machines/elkserver/virtualbox/box_meta
+.vagrant/machines/elkserver/virtualbox/creator_uid
+.vagrant/machines/elkserver/virtualbox/id
+.vagrant/machines/elkserver/virtualbox/index_uuid
+.vagrant/machines/elkserver/virtualbox/private_key
+.vagrant/machines/elkserver/virtualbox/synced_folders
+.vagrant/machines/elkserver/virtualbox/vagrant_cwd
+.vagrant/rgloader/loader.rb
