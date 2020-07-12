@@ -8,10 +8,10 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>rest-service</artifactId>
+	<groupId>org.eduami</groupId>
+	<artifactId>springbootrestservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-service</name>
+	<name>springbootrestservice</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

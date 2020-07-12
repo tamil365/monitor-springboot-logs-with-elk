@@ -1,4 +1,4 @@
-package com.example.restservice;
+package org.eduami.restservice;
 
 public class Greeting {
 

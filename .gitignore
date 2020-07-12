@@ -32,38 +32,38 @@ buildNumber.properties
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-springbootclient/.idea/**/workspace.xml
-springbootclient/.idea/**/tasks.xml
-springbootclient/.idea/**/usage.statistics.xml
-springbootclient/.idea/**/dictionaries
-springbootclient/.idea/**/shelf
+springbootrestservice/.idea/**/workspace.xml
+springbootrestservice/.idea/**/tasks.xml
+springbootrestservice/.idea/**/usage.statistics.xml
+springbootrestservice/.idea/**/dictionaries
+springbootrestservice/.idea/**/shelf
 
 # Generated files
-springbootclient/.idea/**/contentModel.xml
+springbootrestservice/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-springbootclient/.idea/**/dataSources/
-springbootclient/.idea/**/dataSources.ids
-springbootclient/.idea/**/dataSources.local.xml
-springbootclient/.idea/**/sqlDataSources.xml
-springbootclient/.idea/**/dynamic.xml
-springbootclient/.idea/**/uiDesigner.xml
-springbootclient/.idea/**/dbnavigator.xml
+springbootrestservice/.idea/**/dataSources/
+springbootrestservice/.idea/**/dataSources.ids
+springbootrestservice/.idea/**/dataSources.local.xml
+springbootrestservice/.idea/**/sqlDataSources.xml
+springbootrestservice/.idea/**/dynamic.xml
+springbootrestservice/.idea/**/uiDesigner.xml
+springbootrestservice/.idea/**/dbnavigator.xml
 
 # Gradle
-springbootclient/.idea/**/gradle.xml
-springbootclient/.idea/**/libraries
+springbootrestservice/.idea/**/gradle.xml
+springbootrestservice/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# springbootclient/.idea/artifacts
-# springbootclient/.idea/compiler.xml
-# springbootclient/.idea/jarRepositories.xml
-# springbootclient/.idea/modules.xml
-# springbootclient/.idea/*.iml
-# springbootclient/.idea/modules
+# springbootrestservice/.idea/artifacts
+# springbootrestservice/.idea/compiler.xml
+# springbootrestservice/.idea/jarRepositories.xml
+# springbootrestservice/.idea/modules.xml
+# springbootrestservice/.idea/*.iml
+# springbootrestservice/.idea/modules
 # *.iml
 # *.ipr
 
@@ -71,7 +71,7 @@ springbootclient/.idea/**/libraries
 cmake-build-*/
 
 # Mongo Explorer plugin
-springbootclient/.idea/**/mongoSettings.xml
+springbootrestservice/.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -80,13 +80,13 @@ springbootclient/.idea/**/mongoSettings.xml
 out/
 
 # mpeltonen/sbt-idea plugin
-springbootclient/.idea_modules/
+springbootrestservice/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-springbootclient/.idea/replstate.xml
+springbootrestservice/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -95,10 +95,10 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-springbootclient/.idea/httpRequests
+springbootrestservice/.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-springbootclient/.idea/caches/build_file_checksums.ser
+springbootrestservice/.idea/caches/build_file_checksums.ser
 
-springbootclient/.idea/**
-springbootclient/rest-service.iml
+springbootrestservice/.idea/**
+springbootrestservice/rest-service.iml

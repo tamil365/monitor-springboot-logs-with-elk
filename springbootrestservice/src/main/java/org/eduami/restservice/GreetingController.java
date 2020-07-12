@@ -1,4 +1,4 @@
-package com.example.restservice;
+package org.eduami.restservice;
 
 import java.util.concurrent.atomic.AtomicLong;
 
