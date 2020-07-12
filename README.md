@@ -32,3 +32,5 @@ Increase vm.max_map_count
 # Installing filebeat plugin on client
 # Running Springboot application
 
+# References
+- https://github.com/spring-guides/gs-rest-service
