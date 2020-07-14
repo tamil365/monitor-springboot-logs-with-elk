@@ -49,17 +49,23 @@ EOF
 
 
 # install git
+echo "[TASK 7] install git"
 yum install -y git
 
 # htop utility
+echo "[TASK 8] install htop"
 yum install -y epel-release
 yum install -y htop
 
 # install java
+echo "[TASK 9] install java"
 yum install -y java
+
 # install maven
+echo "[TASK 10] install maven"
 yum install -y maven
 
 # Download and install Filebeat
+echo "[TASK 11] install filebeat"
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-x86_64.rpm
 yum localinstall -y filebeat-6.5.4-x86_64.rpm

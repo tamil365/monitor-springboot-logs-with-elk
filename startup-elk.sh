@@ -47,24 +47,23 @@ cat >>/etc/hosts<<EOF
 192.168.50.23 sbclient.eduami.org sbclient
 EOF
 
-# # installs, enables, and starts the Apache.
-# yum install -y httpd
-# systemctl enable httpd
-# systemctl start httpd
-
 # install docker
 # SET UP THE REPOSITORY
+echo "[TASK 7] Install docker"
 yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
 yum install -y docker-ce docker-ce-cli containerd.io
 systemctl enable docker
 systemctl start docker
 
 # install git
+echo "[TASK 8] Install git"
 yum install -y git
 
 # htop utility
+echo "[TASK 9] Install htop"
 yum install -y epel-release
 yum install -y htop
 
 # install docker compose
+echo "[TASK 10] Install docker compose"
 yum install -y docker-compose
