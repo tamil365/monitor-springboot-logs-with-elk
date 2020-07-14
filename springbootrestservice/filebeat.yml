@@ -2,7 +2,7 @@ filebeat:
   prospectors:
     -
       paths:
-        - /vagrant/home/*.log
+        - /vagrant/springbootrestservice/target/*.log
       type: log
 
 output:
