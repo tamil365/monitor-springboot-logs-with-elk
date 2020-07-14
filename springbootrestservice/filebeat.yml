@@ -1,0 +1,10 @@
+filebeat:
+  prospectors:
+    -
+      paths:
+        - /vagrant/home/*.log
+      type: log
+
+output:
+  elasticsearch:
+    hosts: ["http://elkserver:9200"]
