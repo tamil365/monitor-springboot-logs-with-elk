@@ -59,3 +59,7 @@ yum install -y htop
 yum install -y java
 # install maven
 yum install -y maven
+
+# Download and install Filebeat
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-x86_64.rpm
+yum localinstall -y filebeat-6.5.4-x86_64.rpm
