@@ -9,6 +9,7 @@ Vagrant.configure(2) do |config|
     elkserver.vm.hostname = "elkserver.eduami.org"
     elkserver.vm.network "private_network", ip: "192.168.50.22"
     elkserver.vm.network "forwarded_port", guest: 5601, host: 5601
+    elkserver.vm.network "forwarded_port", guest: 9200, host: 9200
     elkserver.vm.provision "shell", path: "startup-elk.sh"
     elkserver.vm.provider "virtualbox" do |vb|
       vb.name = "elkserver"
