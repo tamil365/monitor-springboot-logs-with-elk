@@ -13,7 +13,7 @@ We will be using vagrant to bring two systems up
 
     Bring two vms up ,installs docker-compose and setup network
     vagrant up
-# Running ELK in docker container
+# Server- ELK in docker container
 
 Take ssh to elkserver
 Increase vm.max_map_count 
@@ -29,7 +29,10 @@ Increase vm.max_map_count
     # Run elk in detached mode in docker
     docker-compose up -d
 
-# Installing filebeat plugin on client
+# Client- Springboot application and filebeat plugin
+
+- Spring boot application writes logs to folder
+
 # Running Springboot application
 
 # References
