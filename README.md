@@ -1,19 +1,31 @@
-# Monitor Sprint boot applications with ELK
-- Run ELK in docker
-- Run Springboot Application in another docker
-- Configure filebeat plugin to writes logs to Elastic Server
+# Monitor Springboot Java application logs with ELK
+Using ELK we are going to monitor logs of Java application. In this tutorial we are using Springboot expose rest api and its logs are written to filesystem. 
+
+Filebeat reads the logs from filesystem and places them in Elastic Search Index.
+
+We will
+- Run ELK in docker container
+- Run Java application that produces log messages
+- Configure filebeat plugin to read log messages and write them to Elastic Server
+- Use Kibana to view or query the logs
 # Code
     git clone https://github.com/balajich/monitor-springboot-logs-with-elk.git
+# Prerequisite
+- Docker Compose
+- Vagrant (optional)
+- Java
 # Video
 # Architecture
 # Bootstrap environment
-We will be using vagrant to bring two systems up
+We will be using vagrant to bring two machines up
 - elkserver (Linux machine that runs elk)
-- sbclient (Linux machine that runs  Springboot application and filebeat client) 
+- sbclient (Linux machine that runs  Springboot java application and filebeat client) 
 
-    Bring two vms up ,installs docker-compose and setup network
-    vagrant up
-# Server- ELK in docker container
+## Bring two virtual machines up ,installs docker-compose and setup network    
+        
+        vagrant up
+The virutal machine configuration, network and necessary installation is defined in Vagrantfile
+## Server- ELK in docker container
 
 Take ssh to elkserver
 Increase vm.max_map_count 
