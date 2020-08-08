@@ -8,8 +8,8 @@
 		<version>2.3.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.eduami.sb.example</groupId>
-	<artifactId>app</artifactId>
+	<groupId>org.eduami.sbapp</groupId>
+	<artifactId>springbootapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>app</name>
 	<description>Demo project for Spring Boot</description>
