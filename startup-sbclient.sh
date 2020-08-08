@@ -65,7 +65,16 @@ yum install -y java
 echo "[TASK 10] install maven"
 yum install -y maven
 
+# install tree
+echo "[TASK 11] install tree"
+yum install -y tree
+
 # Download and install Filebeat
-echo "[TASK 11] install filebeat"
+echo "[TASK 12] install filebeat"
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-x86_64.rpm
 yum localinstall -y filebeat-6.5.4-x86_64.rpm
+
+# Create logs directory
+echo "[TASK 12] create logs directory"
+mkdir /logs
+
