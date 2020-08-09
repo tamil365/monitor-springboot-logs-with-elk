@@ -46,9 +46,21 @@ Increase vm.max_map_count
 - Run Spring boot Java application that writes logs to file app.log
 - Run filebeat client that reads log messages in log file (app.log) and send to Elastic Search Server
 
+
+        Build Java application
+        $cd /vagrant/springbootapp
+        $mvn clean install
+        Run Jar file and write log message to app.log
+        $cd target
+        $ java -jar springbootapp-0.0.1-SNAPSHOT.jar > app.log
+        #Run file beat program
+        $ cp filebeat.yml /etc/filebeat
+        $filebeat run
+    
+
 # Access  Kibana UI
-Kibana 
-#
+http://localhost:5601/
+
 
 # References
 - https://github.com/spring-guides/gs-rest-service
