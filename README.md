@@ -15,7 +15,9 @@ We will
 - Vagrant (optional)
 - Java
 # Video
+[![Monitor Springboot Java application logs with ELK](https://img.youtube.com/vi/297DQoVW5EY/0.jpg)](https://www.youtube.com/watch?v=297DQoVW5EY)
 # Architecture
+![architecture](architecture.png "architecture")
 # Bootstrap environment
 We will be using vagrant to bring two machines up
 - elkserver (Linux machine that runs elk in a docker container)
