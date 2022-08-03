@@ -57,7 +57,7 @@ Increase vm.max_map_count
         $ java -jar springbootapp-0.0.1-SNAPSHOT.jar > app.log
         #Run file beat program
         $ cp filebeat.yml /etc/filebeat
-        $filebeat run
+        $filebeat run ; filebeat test output
     
 
 # Access  Kibana UI
